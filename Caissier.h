@@ -17,7 +17,7 @@ protected:
     bool _estLibre;
     double _tempsMoyenService;
     Banque* _banque;
-    //Client _clientOccupe; // Client actuel
+    Client* _clientOccupe; // Client actuel
 public:
     explicit Caissier(double tms, Banque* bq);
     ~Caissier();

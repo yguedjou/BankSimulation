@@ -14,6 +14,7 @@ Caissier::Caissier(double tms, Banque* bq) {
     _tauxOccuptaion = 0;
     _tempsMoyenService = tms;
     _banque = bq;
+    _clientOccupe = nullptr;
 }
 
 void Caissier::servir(Client c) {
